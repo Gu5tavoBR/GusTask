@@ -9,13 +9,15 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.gustask.brstudio"
     },
+    "extra": {
+      "eas": {
+        "projectId": "52384470-b9d7-4518-9031-1044c95c26e8"
+      }
+    }
   }
 }
